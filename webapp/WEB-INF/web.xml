@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" id="WebApp_ID" version="3.1">
+	<servlet>
+         <servlet-name>AdminServlet</servlet-name>
+         <servlet-class>com.webapps.AdminServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+         <servlet-name>AdminServlet</servlet-name>
+         <url-pattern>/AdminServlet</url-pattern>
+    </servlet-mapping>
+    <servlet>
+         <servlet-name>RemovingServlet</servlet-name>
+         <servlet-class>com.webapps.RemovingServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+         <servlet-name>RemovingServlet</servlet-name>
+         <url-pattern>/RemovingServlet</url-pattern>
+    </servlet-mapping>
+    <servlet>
+         <servlet-name>SignupServlet</servlet-name>
+         <servlet-class>com.webapps.SignupServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+         <servlet-name>SignupServlet</servlet-name>
+         <url-pattern>/SignupServlet</url-pattern>
+    </servlet-mapping>
+    <servlet>
+         <servlet-name>LoginServlet</servlet-name>
+         <servlet-class>com.webapps.LoginServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+         <servlet-name>LoginServlet</servlet-name>
+         <url-pattern>/LoginServlet</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+         <servlet-name>LearningsServlet</servlet-name>
+         <servlet-class>com.webapps.LearningsServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+         <servlet-name>LearningsServlet</servlet-name>
+         <url-pattern>/LearningsServlet</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+         <servlet-name>LogoutServlet</servlet-name>
+         <servlet-class>com.webapps.LogoutServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+         <servlet-name>LogoutServlet</servlet-name>
+         <url-pattern>/LogoutServlet</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+         <servlet-name>BucketofCourses</servlet-name>
+         <servlet-class>com.webapps.BucketofCourses</servlet-class>
+    </servlet>
+    <servlet-mapping>
+         <servlet-name>BucketofCourses</servlet-name>
+         <url-pattern>/BucketofCourses</url-pattern>
+    </servlet-mapping>
+    <servlet>
+         <servlet-name>DroppingCourses</servlet-name>
+         <servlet-class>com.webapps.DroppingCourses</servlet-class>
+    </servlet>
+    <servlet-mapping>
+         <servlet-name>DroppingCourses</servlet-name>
+         <url-pattern>/DroppingCourses</url-pattern>
+    </servlet-mapping>
+    
+    
+
+</web-app>
